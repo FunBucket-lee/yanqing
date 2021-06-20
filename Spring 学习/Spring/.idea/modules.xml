@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Anotation/Anotation.iml" filepath="$PROJECT_DIR$/Anotation/Anotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Appconfig/Appconfig.iml" filepath="$PROJECT_DIR$/Appconfig/Appconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOC2/IOC2.iml" filepath="$PROJECT_DIR$/IOC2/IOC2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOC3/IOC3.iml" filepath="$PROJECT_DIR$/IOC3/IOC3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOC4/IOC4.iml" filepath="$PROJECT_DIR$/IOC4/IOC4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOC1/IOCtest1.iml" filepath="$PROJECT_DIR$/IOC1/IOCtest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
+    </modules>
+  </component>
+</project>

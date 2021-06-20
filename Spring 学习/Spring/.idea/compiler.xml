@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="proxy" />
+        <module name="IOC3" />
+        <module name="IOC4" />
+        <module name="IOC2" />
+        <module name="Anotation" />
+        <module name="IOCtest1" />
+        <module name="Appconfig" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Anotation" target="8" />
+      <module name="Appconfig" target="8" />
+      <module name="IOC2" target="1.8" />
+      <module name="IOC3" target="8" />
+      <module name="IOC4" target="8" />
+      <module name="IOCtest1" target="8" />
+      <module name="proxy" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IOC2" options="-parameters" />
+      <module name="IOC3" options="-parameters" />
+      <module name="IOCtest1" options="-parameters" />
+    </option>
+  </component>
+</project>
