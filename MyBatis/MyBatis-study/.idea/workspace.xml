@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29e88d55-9a03-42ad-ae46-03ec23a475ac" name="Default Changelist" comment="mybatis学习">
+      <change afterPath="$PROJECT_DIR$/mybatis-04/log/qing.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/qing/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/qing/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/qing/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/test/java/com/qing/pojo/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/qing/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/qing/dao/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/qing/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/qing/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/qing/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/studentdao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/teacherdao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/test/java/com/qing/dao/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/log/qing.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/qing/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/qing/dao/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/qing/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/qing/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/qing/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/studentdao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/teacherdao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/test/java/com/qing/dao/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/qing/dao/BlogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/qing/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/qing/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/blogdao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-07/src/test/java/com/qing/dao/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/java/com/qing/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/java/com/qing/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/java/com/qing/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/resources/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/mybatis/src/test/java/com/qing/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69475d94-f26d-4df7-910a-45471f1786cd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69475d94-f26d-4df7-910a-45471f1786cd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/IOC3/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/IOC3/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring 学习/Spring/IOC4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring 学习/Spring/IOC4/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1uFv1Ofxzzf7lZ44bH5imn7Nr7X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-06/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\yanqing\MyBatis\MyBatis-study\mybatis-06\src\main\resources" />
+      <recent name="D:\GitHub\yanqing\MyBatis\MyBatis-study\mybatis-05\src\main\resources" />
+      <recent name="D:\GitHub\yanqing\MyBatis\MyBatis-study\mybatis-04\src\main\resources" />
+      <recent name="D:\GitHub\yanqing\MyBatis\MyBatis-study\mybatis-03\src\main\resources" />
+      <recent name="D:\GitHub\yanqing\MyBatis\MyBatis-study\mybatis-03\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\yanqing\Spring 学习\MyBatis\MyBatis-study\mybatis-01\src\main\resources" />
+      <recent name="D:\GitHub\yanqing\Spring 学习\MyBatis\MyBatis-study\mybatis-01\src\main\java\com\qing\dao" />
+      <recent name="D:\GitHub\yanqing\Spring 学习\MyBatis\MyBatis-study\mybatis-01\src\main\java\com\qing\dao\com" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qing.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qing.utils" />
+      <recent name="com.qing.dao" />
+      <recent name="com.qing.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.queryForeachTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qing.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qing.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.qing.dao.MyTest" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryChooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qing.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qing.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.qing.dao.MyTest" />
+      <option name="METHOD_NAME" value="queryChooseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryForeachTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qing.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qing.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.qing.dao.MyTest" />
+      <option name="METHOD_NAME" value="queryForeachTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qing.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qing.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.qing.dao.MyTest" />
+      <option name="METHOD_NAME" value="queryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.updateTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qing.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qing.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.qing.dao.MyTest" />
+      <option name="METHOD_NAME" value="updateTeste" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.queryForeachTest" />
+        <item itemvalue="JUnit.MyTest.queryChooseTest" />
+        <item itemvalue="JUnit.MyTest.queryTest" />
+        <item itemvalue="JUnit.MyTest.updateTeste" />
+        <item itemvalue="JUnit.MyTest.addTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e88d55-9a03-42ad-ae46-03ec23a475ac" name="Default Changelist" comment="" />
+      <created>1624273936370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624273936370</updated>
+      <workItem from="1624273937741" duration="557000" />
+      <workItem from="1624274523875" duration="5216000" />
+      <workItem from="1624279824600" duration="873000" />
+      <workItem from="1624280733362" duration="2003000" />
+      <workItem from="1624283404965" duration="40000" />
+      <workItem from="1624434730357" duration="7792000" />
+      <workItem from="1624442619061" duration="4168000" />
+      <workItem from="1624457623477" duration="3275000" />
+      <workItem from="1624460975825" duration="1103000" />
+      <workItem from="1624506577866" duration="3220000" />
+      <workItem from="1624515030242" duration="7971000" />
+      <workItem from="1624530236419" duration="20000" />
+      <workItem from="1624588029425" duration="4210000" />
+      <workItem from="1624618554697" duration="7201000" />
+      <workItem from="1624700998561" duration="240000" />
+      <workItem from="1624710231588" duration="586000" />
+    </task>
+    <task id="LOCAL-00001" summary="mybatis学习">
+      <created>1624506939409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624506939409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+    <MESSAGE value="mybatis学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis学习" />
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+package com.qing.dao;
+
+import com.qing.pojo.User;
+import org.mybatis.spring.SqlSessionTemplate;
+
+import java.util.List;
+
+public class UserDaoImpl implements UserDao {
+
+    //sqlSession不用我们自己创建了，Spring来管理
+    private SqlSessionTemplate sqlSession;
+
+    public void setSqlSession(SqlSessionTemplate sqlSession) {
+        this.sqlSession = sqlSession;
+    }
+
+    public List<User> selectUser() {
+        UserDao mapper = sqlSession.getMapper(UserDao.class);
+        return mapper.selectUser();
+    }
+
+}
