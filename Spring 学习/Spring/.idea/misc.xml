@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Anotation/pom.xml" />
         <option value="$PROJECT_DIR$/Appconfig/pom.xml" />
         <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
       </list>
     </option>
   </component>

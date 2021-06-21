@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       xmlns:p=http://www.springframework.org/schema/p">
+<!--       xmlns:c=http://www.springframework.org/schema/c">-->
+
+
+    <beans>
+
+        <bean id="addr" class="com.ioc.pojo.Address">
+            <property name="address" value="广东"/>
+        </bean>
+
+        <bean id="user" class="com.ioc.pojo.User" p:name="Fun" p:age="19"/>
+
+        <bean id="student" class="com.ioc.pojo.Student">
+            <!--普通值注入-->
+            <property name="name" value="燕青"/>
+            <!--Bean注入-->
+            <property name="address" ref="addr"/>
+            <!--数组注入-->
+            <property name="books">
+                <array>
+                    <value>红楼梦</value>
+                    <value>三国演义</value>
+                    <value>水浒传</value>
+                    <value>西游记</value>
+                </array>
+            </property>
+            <!--List注入-->
+            <property name="hobbies">
+                <list>
+                    <value>唱</value>
+                    <value>跳</value>
+                    <value>rap</value>
+                </list>
+            </property>
+            <!--Map注入-->
+            <property name="card">
+                <map>
+                    <entry key="身份证号" value="10086"/>
+                    <entry key="银行卡" value="10086111"/>
+                </map>
+            </property>
+            <!--Set注入-->
+            <property name="games">
+                <set>
+                    <value>LOL</value>
+                    <value>COC</value>
+                    <value>BOB</value>
+                </set>
+            </property>
+            <!--null注入-->
+            <property name="wife">
+                <null/>
+            </property>
+            <!--property注入-->
+            <property name="info">
+                <props>
+                    <prop key="学号">418450127</prop>
+                    <prop key="学院">数据科学学院</prop>
+                    <prop key="专业">软件工程</prop>
+                </props>
+            </property>
+        </bean>
+    </beans>
+</beans>

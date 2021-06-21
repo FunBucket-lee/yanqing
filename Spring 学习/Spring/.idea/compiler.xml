@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="proxy" />
+        <module name="aop" />
         <module name="IOC3" />
         <module name="IOC4" />
         <module name="IOC2" />
@@ -17,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Anotation" target="8" />
+      <module name="aop" target="8" />
       <module name="Appconfig" target="8" />
       <module name="IOC2" target="1.8" />
       <module name="IOC3" target="8" />

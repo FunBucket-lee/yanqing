@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/IOC4/IOC4.iml" filepath="$PROJECT_DIR$/IOC4/IOC4.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOC1/IOCtest1.iml" filepath="$PROJECT_DIR$/IOC1/IOCtest1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
     </modules>
   </component>
