@@ -20,4 +20,7 @@ public interface BooksService {
 
     //    查询全部Book
     List<Books> selectBook();
+
+    //    查询一个Book(根据Name)
+    Books selectBookByName(@Param("bookName") String bookName);
 }

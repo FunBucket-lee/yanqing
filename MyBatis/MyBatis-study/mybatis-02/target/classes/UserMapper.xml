@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qing.dao.UserDao">
+
+
+    <select id="getUserList" resultType="com.qing.pojo.User">
+        select *
+        from user;
+    </select>
+
+    <select id="getUserByID" resultType="com.qing.pojo.User">
+        select *
+        from user
+        where id = #{id}
+    </select>
+
+    <select id="getUserByNP" resultType="com.qing.pojo.User">
+        select *
+        from user
+        where name = #{username}
+          and pwd = #{pwd}
+    </select>
+
+    <select id="getUserByNP2" parameterType="map" resultType="com.qing.pojo.User">
+        select *
+        from user
+        where name = #{username}
+          and pwd = #{pwd}
+    </select>
+
+    <select id="getUserLike" parameterType="String" resultType="com.qing.pojo.User">
+        select *
+        from user
+        where name like #{value};
+    </select>
+
+    <insert id="addUser" parameterType="com.qing.pojo.User">
+        insert into user (id, name, pwd)
+        values (#{id}, #{name}, #{pwd})
+    </insert>
+
+    <update id="updateUser" parameterType="com.qing.pojo.User">
+        update user
+        set name = #{name},
+            pwd  = #{pwd}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete
+        from user
+        where id = #{id};
+    </delete>
+</mapper>

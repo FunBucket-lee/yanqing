@@ -18,6 +18,9 @@ public interface BooksMapper {
     //    查询一个Book(根据ID)
     Books selectBookByID(@Param("bookID") int bookID);
 
+    //    查询一个Book(根据Name)
+    Books selectBookByName(@Param("bookName") String bookName);
+
     //    查询全部Book
     List<Books> selectBook();
 }
