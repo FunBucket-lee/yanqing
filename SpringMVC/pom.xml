@@ -12,6 +12,7 @@
         <module>springmvc-study01</module>
         <module>springmvc-study02</module>
         <module>springmvc-study03-annotation</module>
+        <module>springmvc-study04-ajax</module>
     </modules>
 
     <properties>

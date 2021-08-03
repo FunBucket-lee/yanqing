@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc-study02" />
         <module name="springmvc-study03-annotation" />
+        <module name="springmvc-study04-ajax" />
         <module name="springmvc-study01" />
       </profile>
     </annotationProcessing>
