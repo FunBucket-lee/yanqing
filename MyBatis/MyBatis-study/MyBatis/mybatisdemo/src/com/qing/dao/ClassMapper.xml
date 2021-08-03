@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qing.dao.ClassesDao">
+    <resultMap id="classesMap" type="Classes">
+        <id property="cid" column="cid"/>
+        <result column="cname" property="cname"/>
+        <collection property="students" ofType="student">
+            <id property="sid" column="id"/>
+            <result column="studentname" property="sname"/>
+            <result property="sex" column="gender"/>
+            <result property="age" column="age"/>
+        </collection>
+    </resultMap>
+    <select id="findByNo" resultMap="classesMap">
+        select classes.*, student.*
+        from classes,
+             student
+        where classes.cid = student.classno
+          and classes.cid = #{cid};
+    </select>
+</mapper>

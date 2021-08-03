@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.emp.dao.EmpDao">
+    <resultMap id="empMap" type="Emp">
+        <id property="empno" column="empno"/>
+        <result column="ename" property="ename"/>
+        <result property="job" column="job"/>
+        <result column="mgr" property="mgr"/>
+        <result property="hiredate" column="hiredate"/>
+        <result column="sal" property="sal"/>
+        <result property="comm" column="comm"/>
+        <result column="deptno" property="deptno"/>
+    </resultMap>
+
+    <select id="queryAll" resultMap="empMap">
+        select *
+        from emp;
+    </select>
+
+    <select id="queryByNo" resultMap="empMap" parameterType="int">
+        select *
+        from emp
+        where empno = #{empno};
+    </select>
+
+    <insert id="addEmp" parameterType="Emp">
+        insert into emp
+        values (#{empno}, #{ename}, #{job}, #{mgr}, #{hiredate}, #{sal}, #{comm}, #{deptno});
+    </insert>
+
+    <update id="updateEmp" parameterType="Emp">
+        update emp
+        set ename=#{ename},
+            job=#{job},
+            hiredate=#{hiredate},
+            sal=#{sal},
+            comm = #{comm},
+            deptno=#{deptno}
+        where empno = #{empno};
+    </update>
+
+    <delete id="deleteEmp" parameterType="int">
+        delete
+        from emp
+        where empno = #{empno};
+    </delete>
+
+    <select id="queryByDeptnoAndJob1" resultMap="empMap">
+        select *
+        from emp
+        where deptno = #{deptno}
+          and job = #{job};
+    </select>
+
+    <select id="queryByDeptnoAndJob2" resultMap="empMap">
+        select *
+        from emp
+        where deptno = #{deptno}
+          and job = #{job};
+    </select>
+
+    <select id="queryByDeptnoAndJob3" resultMap="empMap">
+        select *
+        from emp
+        where deptno = #{deptno}
+          and job = #{job};
+    </select>
+</mapper>
