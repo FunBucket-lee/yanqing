@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script type="text/javascript">
+
+    //单个json
+    let person = {'name': '张三', 'age': 3, "gender": true};
+    alert(person);
+    alert(person.name);
+    alert(typeof person);
+
+    //Json数组
+    let ps = [{'name': '张三', 'age': 3, "gender": true},
+        {'name': '李四', 'age': 4, "gender": true},
+        {'name': '王五', 'age': 5, "gender": true}]
+    alert(ps);
+    alert(ps[0].name)
+    alert(typeof ps);
+
+    //Json中放Json
+    let person1 = {
+        "p1": {'name': '张三', 'age': 3, "gender": true}
+    }
+    alert(person1);
+    alert(person1.p1.name)
+    alert(typeof person1);
+
+    //Json中放Json数组
+    let persons1 = {
+        "persons": [{'name': '张三', 'age': 3, "gender": true},
+            {'name': '李四', 'age': 4, "gender": true},
+            {'name': '王五', 'age': 5, "gender": true}]
+    }
+    alert(persons1)
+    alert(persons1.persons[0].name);
+    alert(typeof persons1);
+
+    //Json转字符串
+    person = JSON.stringify(person);
+    alert(person)
+    alert(person.name)
+    alert(typeof person)
+
+    //字符串转Json
+    let personS = '{"name": "张三", "age": 3, "gender": true}';
+    person = JSON.parse(personS)
+    alert(person)
+    alert(person.name)
+    alert(typeof person)
+
+
+</script>
+</html>

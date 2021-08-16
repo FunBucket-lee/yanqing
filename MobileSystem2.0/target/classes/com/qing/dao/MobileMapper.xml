@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qing.dao.MobileMapper">
+    <select id="findAll" resultType="Mobile">
+        select *
+        from mobile
+    </select>
+
+    <select id="findById" resultType="Mobile">
+        select *
+        from mobile
+        where id = #{id};
+    </select>
+
+    <select id="searchMobile" resultType="Mobile">
+        select *
+        from mobile
+        <where>
+            <if test="brand != null and brand!=''">
+                brand like '%' #{brand} '%'
+            </if>
+            <if test="type != null and type!=''">
+                and type like '%' #{type} '%'
+            </if>
+            <if test="minPrice != null">
+                and price &gt;= #{minPrice}
+            </if>
+            <if test="maxPrice != null">
+                and price &lt;= #{maxPrice}
+            </if>
+        </where>
+    </select>
+
+    <insert id="addMobile" parameterType="Mobile">
+        insert into mobile
+        values (null, #{brand}, #{type}, #{price}, #{imageUrl});
+    </insert>
+
+    <update id="updateMobile" parameterType="Mobile">
+        update mobile
+        set brand   = #{brand},
+            type=#{type},
+            price=#{price},
+            imageUrl=#{imageUrl}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteMobile" parameterType="int">
+        delete
+        from mobile
+        where id = #{id};
+    </delete>
+
+    <delete id="delCheck" parameterType="int">
+        delete
+        from mobile
+        where id in
+        <if test="array!=null and array.length>0">
+            <foreach collection="array" item="ids" close=")" open="(" separator=",">
+                #{ids}
+            </foreach>
+        </if>
+    </delete>
+
+</mapper>
