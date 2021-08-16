@@ -15,7 +15,17 @@ public class TestCourse1 {
     private static final CourseDao courseDao = session.getMapper(CourseDao.class);
 
     public static void main(String[] args) {
-        findCourseById();
+
+//        findCourseById();
+        findAll();
+    }
+
+    private static void findAll() {
+        List<Course> courses = courseDao.findAll();
+//        System.out.println(courses.size());
+        for (Course course : courses) {
+            System.out.println(course);
+        }
     }
 
     private static void findCourseById() {

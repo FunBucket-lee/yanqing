@@ -20,9 +20,7 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/qing/dao/StudentMapper.xml"/>
-        <mapper resource="com/qing/dao/ClassMapper.xml"/>
-        <mapper resource="com/qing/dao/EmployeeMapper.xml"/>
-        <mapper resource="com/qing/dao/CourseMapper.xml"/>
+        <package name="com.qing.dao"/>
+        <package name="com.qing.utils"/>
     </mappers>
 </configuration>
